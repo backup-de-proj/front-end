@@ -1,0 +1,69 @@
+AULA 01:
+
+TRANSFORM:
+    transform: translateX(200px); desloca Xpx pro eixo X
+    transform: translateT(200px); desloca Xpx pro eixo Y
+    transform: translate(200px, 100px); o primeiro valor é o eixo X e o segundo é o eixo Y
+
+    transform: scaleX(1.25); aumenta X tamanho pro eixo X
+    transform: scaleY(1.25); aumenta X tamnho pro eixo Y
+    transform: scale(1.25); aumenta o tamanho ( 2 = dobro )
+
+    transform: rotate(0.5turn); rotaciona em 180 graus ( 1 = 360 graus, 0.5 = 180 graus )
+    transform: rotate(45deg); rotaciona em 45 graus ( deg = graus )
+
+    transform: skew(20deg); entorta 20 graus para ambos os eixos
+    transform: skewX(20deg); entorta 20 graus pro eixo X
+    transform: skewY(20deg); entorta 20 graus pro eixo Y
+FIM DA AULA 01...
+
+AULA 02:
+
+POSITION:
+    transition-property: background; quais as propriedades que eles vao focar
+    transition-duration: 15s; tempo da transição em seg
+    transition-delay: 1s; delay pra executar a animação em seg
+
+    transition-timing-function: ease-in; suavizada no começo
+    transition-timing-function: ease-out; suavizada no final
+    transition-timing-function: ease-in-out; mistura os dois
+    transition-timing-function: cubic-bezier(.15, .89, .85, .16); ??? duração especificada para cada ponta
+AULA 02...
+
+AULA 03:
+
+KEYFRAMES & ANIMATION:
+    animation-timing-function: steps(3); em quantos passos vai ser a animação
+    animation-delay: 0.5s; tempo de delay pra animação começar
+    animation-iteration-count: 3; qunatidades de vezes que a animação vai acontecer pra dps parar
+    animation-direction: reverse; vai de trás pra frente, 
+        animation-direction: alternate; vai do começo até o fim e do fim até o começo
+        animation-direction: alternate-reverse; vai do fim até o começo e do começo até o fim
+    animation-fill-mode: forwards; o ultimo frame da animação é mantida
+        animation-fill-mode: backwards; fica um pouco mantida no inicio da animação
+        animation-fill-mode: both;
+        animation-fill-mode: forwards;
+    animation-play-state: running; 
+        animation-fill-mode: paused;
+
+    animation: nome da animação, tempo de duração, a time-function,
+
+    --------------------------------------------
+    @keyframes teste {
+        0% {
+            o que vai acontecer no -> inicio <-
+        }
+
+        50% {
+            o que vai acontecer no -> meio <-
+        }
+
+        100% {
+            o que vai acontecer no -> final <-
+        }
+    }
+    --------------------------------------------
+FIM DA AULA 03...
+
+AULA 04:
+FIM DA AULA 04...
