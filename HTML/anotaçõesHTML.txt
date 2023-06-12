@@ -1,0 +1,143 @@
+AULA 01:
+
+    não tem ( conteudo já sabia, e estava nas anotações do JS );
+FIM DA AULA 01...
+
+AULA 02:
+
+META TAGS PADRÃO:
+    - meta charset  = definir o tipo de caracteres do site ( o padrão é o UTF-8 ) quando se usa o UTF-8 não vai ter problema com acentos
+    - meta http-equiv = compatibilidade com a internet explorer ( o padrão é X-UA-Compatible ) e ( IE=edge ) so server pra compatibilidade
+    - meta nome = ( o padrão é viewport ) que seria a area visivel do site, que ela vai se adaptar com telas diferentes ( mobile, pc, etc... )
+
+METAS TAGS " EXTERNAS ":
+    - <meta nome="description" content="Esse é o meu primeiro teste"> ; ( descrição do site quando o link é enviado )
+    - <meta name="keywords" content="testes, front-end, testando, primeiro site, HTML"> ; ( tags/palavras chaves do site )
+    - <meta name="author" content="Podin | wesley"> ; ( autor do site, ava '_' )
+
+TAGS DE CABEÇALHO:
+    - <h1> teste1 </h1> ( maior titulo de CABEÇALHO )
+    - <h2> teste2 </h2> ( um titulo um pouco menor doq o h1 )
+    - <h3> teste3 </h3> ( um titulo um pouco menor doq o h2 )
+    - <h4> teste4 </h4> ( um titulo um pouco menor doq o h3 )
+    - <h5> teste5 </h5> ( um titulo um pouco menor doq o h4 )
+    - <h6> teste6 </h6> ( um titulo um pouco menor doq o h5 )
+
+TAGS DE PARÁGRAFO:
+    - <p> pa1 </p>
+    - p>Lorem ( enter ) ; ( um texto em Latim )
+    - p*x ( X tags <p> de uma vez só )
+FIM DA AULA 02...
+
+AULA 03:
+
+TAGS DE FORMATAÇÃO DE TEXTO:
+    - <b> Texto em negrito </b> ( colocar palavras em negrito )
+    - <strong> dá ENFASE a tal frase </strong> ( é so pra maquina interpretar melhor )
+    - <hr>  </hr> ( literalmente uma linha )
+    - <br>  </br> ( quebra linha )
+    - <i>  </i> ( deixa a palavra DEITADA )
+    - <u>  </u> ( deixa sublinhado )
+    - <small>  </small> ( deixa a palavra pequena )
+    - <del>  </del> ( deixa um " risco " no meio da palavra )
+    - <strike>  </strike> ( só coloquei pra ficar completo, pois os navegadores não usam mais o strike '-' )
+    - <sup>  </sup> ( deixa o número pequeno, tipo expoensisasão )
+    - <sub>  </sub> ( é a msm coisa do SUB mas o número fica em baixo )
+    - <mark>  </mark> ( literalmente um marca texto )
+FIM DA AULA 03...
+
+AULA 04:
+
+TAGS DE CITAÇÃO:
+    - <abbr>  </abbr> ( abreviação, é. )
+    - <adress>  </adress> ( endereço, é. )
+    - <cite>  </cite> ( obra, é... )
+    - <q>  </q> ( frase com aspas '-' )
+    - <blockquote>  </blockquote> ( frase com margen )
+    - <bdo dir="">  </bdo> ( ltr é da direita pra esquerda, e rtl da esquerda pra direita, auto... )
+FIM DA AULA 04...
+
+AULA 05:
+
+TAGS DE COMENTÁRIOS:
+    - <!--É assim que faz um comentário em HTML-->
+    - Ctrl K + C bem rápido ( transforma o codigo selecionado em comentário )
+FIM DA AULA 05...
+
+AULA 06:
+
+TAGS DE HIPERLINK:
+    - <a href="https://google.com/" target="_blank"> Ir para o google </a> ( _blank é para o site abrir em outra aba )
+    - <a href="nome_do_arquivo.html">  </a> ( para ir pra outra pasta do VS por link )
+    - <a href="NomeDaPasta/nome_do_arquivo.html">  </a>;
+    - <a href="../nome_do_arquivo.html">  </a> ( depois de entrar em um arquivo dentro de uma pasta, para voltar é so escrever ../ )
+FIM DA AULA 06...
+
+AULA 07:
+
+TAGS DE IMAGENS:
+    - <img src="" width="" height=""> ( no scr é o link da imagem, o width é os pixel/tamanho da imagem, height é o tamanho da imagem em pixel );
+        ( pexels, site pra pegar imagens sem direitos autorais )
+FIM DA AULA 07...
+
+AULA 08:
+
+TAGS DE TABELAS:
+    - <table>  </table>
+    - <table width="90%" border="2" style="text-align: center;"> ( border é o tamanho em PX da borda, width é o " tamanho " )
+    - <tr>  </tr> ( tr é uma linha, o primeiro tr é pra colocar os th, o segundo é para os th )
+    - <th>  </th> ( nome das colunas )
+    - <td>  </td> ( usado pra criar as linhas da tabela )
+FIM DA AULA 08..
+
+AULA 09:
+
+TAGS DE LISTAS:
+    -  <ul>  </ul> ( lista não ordenada )
+    -  <li>  </li> ( itens da lista )
+    -  <ol>  </ol> ( lista ordenada )
+FIM DA AULA 09...
+
+AULA 10:
+
+TAGS DE IFRAMES:
+    - <iframe>  </iframe>
+    - <iframe src="index2.html" frameborder="0" title="Meu IFRAME" height="300" width="100%">  </iframe> ( src é o " link " do site que você );
+        ( quer renderizar, height é a altura, width é o tamanho, frameborder é o , sytle="border:none" )
+FIM DA AULA 10...
+
+AULA 11:
+
+TAGS DE FORMULÁRIOS:
+    - <form>  </form>
+    - <input type="text" placeholder="Aqui é legenda do input">  </input>
+    - <textarea> Bloco de texto </textarea>
+    - <select> <option>  </option> </select>
+FIM DA AULA 11...
+
+AULA 12:
+
+TAGS DE AUDIO:
+    - <audio> <source src=""> </audio> ( controls aparece a barra de video );
+        ( controlsList="nodownload" desabilita o download do video)
+FIM DA AULA 12...
+
+AULA 13:
+
+TAGS DE VÍDEO:
+    - <video> <source src=""> </video> ( controls aparece a barra do video );
+        ( controlsList="nodownload nofullscreen" desabilita o download e a tela cheia do video);
+        ( poster="" link da capa do video )
+FIM DA AULA 13...
+
+AULA 14:
+
+TAGS SEMÂTICAS:
+    - <div>  </div>
+    - <header>  </header> ( header = topo )
+    - <nav>  </nav> ( nav = navegação );
+        ( tags semânticas são pra outras pessoas reconhecerem cada parte do seu
+         site, ou o navegador reconhecer cada parte do seu site
+         mas não tem problema eu não usar );
+    - <article>  </article> ( article = artigo )
+FIM DA AULA 14...
