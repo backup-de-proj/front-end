@@ -1,0 +1,66 @@
+body {
+    height: 400px;
+}
+
+
+.box3 {
+    background: #ec5840;
+    width: 300px;
+    height: 300px;
+    animation: teste 2s infinite;
+}
+
+
+@keyframes teste {
+    0% {
+        transform: translateX(0px);
+    }
+
+    35% {
+        transform: translateX(50px);
+    }
+
+    50% {
+        transform: translateX(70px);
+    }
+
+    85% {
+        transform: translateX(140px);
+    }
+
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+.box4 {
+    margin-top: 10px;
+    animation: degrade 10s ease alternate infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23a6d5) no-repeat;
+    background-size: 300% 300%;
+    background-size: 300% 300%;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    height: 480px;
+    font-size: 300%;
+    width: 100%;
+}
+
+@keyframes degrade {
+
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 100%;
+    }
+
+}
