@@ -1,0 +1,322 @@
+AULA 01:
+
+    font-size = tamanho das letras em PX
+    color = cor das letras
+    background = cor de fundo
+FIM DA AULA 01...
+
+AULA 02:
+
+CSS INTERNO E INCORPORADO NA PÁG:
+    - <style>  </style>
+FIM DA AULA 02...
+
+AULA 03:
+
+CSS EXTERNO:
+    <link rel="stylesheet" href="NomeDaPasta/NomeDoArquivo.css">
+FIM DA AULA 03...
+
+AULA 04:
+
+SETORES E CLASSES:
+    - <p class="center">  </p> ( ai no CSS externo usa-se .center {} )
+        para classe se usa um -> . <- e para id se usa -> # <-
+        classe é um seletor global, e o id é um seletor único
+    * {}  ( será afetada em TODAS as TAGS )
+    .NomeDaClass:hover {} ( o :hover é quando o mouse passa em cima )
+FIM DA AULA 04...
+AULA 05:
+
+PROPRIEDADE DE COR:
+    color: aqua; ( cores nas palavras )
+FIM DA AULA 05...
+
+AULA 06:
+
+PROPRIEDADE BACKGROUND:
+    background: rgb(133, 133, 233); ( cor de fundo )
+    background-color: aqua; ( cor de fundo, sólida )
+    background-image: url("NomeDaPasta/NomeDoArquivo.jpg")
+    background-size: cover; ( tem o contain também, que " repete " )
+    background-repeat: no-repeat; ( tem o repeat, que permite REPETIR, e o no-repeat faz ele NÃO REPETIR, e tem o repeat-y que repete pra BAIXO
+        e tem o repeat-x que repete pra ??? )
+    background-position: center; ( o CENTRO pega mais a parte de baixo, o TOP ele pega mais a parte de cima, o RIGHT pega mais a parte das
+        direita, o LEFT pega mais a parte da esquerda )
+FIM DA AULA 06...
+
+AULA 07:
+
+PROPRIEDADE BORDER:
+    border: 1px solid black; ( tamanho da borda em PX, tipo da borda e cor:
+        tem o dashed que são os " tracinhos ", tem dotted que são as " bolinhas "
+        tem o double que é borda dupla, tem o solid que é a borda normal,
+        tem o groove que é um efeito mais em 3D, tem a inset que é por dentro
+        tem a ridge que é ???, tem a outset que é por fora, tem a none que é nenhuma
+        tem a hidden que é oculta )
+    border-left: ; ( que se aplica a esquerda )
+    border-top: ; ( que se aplica no topo/cima )
+    border-right: ; ( que se aplica a direita )
+    border-bottom: ; ( que se aplica em baixo )
+    border-radius: ; ( borda redonda em PX )
+FIM DA AULA 07...
+
+AULA 08:
+
+PROPRIEDADE MARGIN:
+    margin-top: ; ( espaço de margen em PX, ou em %, em cima )
+    margin-bottom: ; ( espaço de margen em PX, ou em %, em baixo )
+    margin-left: ; ( espaço de margen em PX, ou em %, na esquerda )
+    margin-right: ; ( espaço de margen em PX, ou em %, na direita )
+FIM DA AULA 08...
+
+AULA 09:
+
+PROPRIEDADE PADDING:
+    padding: ; ( preenchemento em PX, para todos os lados )
+    padding-top: ; ( preenchemento em PX, em cima )
+    padding-left: ; ( preenchemento em PX, a esquerda )
+    padding-right: ; ( preenchemento em PX, a direita )
+    padding-bottom: ; ( preenchemento em PX, em baixo)
+FIM DA AULA 09...
+
+AULA 10:
+
+PROPRIEDADE WIDTH E HEIGHT:
+    width: ; ( a largura em PX )
+    height: ; ( a altura em PX )
+    max-width: ; ( a largura max que um elemento pode chegar em PX )
+    max-height: ; ( a altura max que um elemento pode chegar em PX )
+FIM DA AULA 10...
+
+AULA 11:
+
+PROPRIEDADE TEXT:
+    text-align: ; ( ajustamento de texto, tem o center que ao CENTRO
+        tem o left que é alinhado a esquerda, e tem o right que é alinhado a
+        direita, tem o justify que é " quadrado " )
+    direction: ; ( tem o rtl que da direita pra esquerda, e o ltr que é da 
+        direita pra esquerda )
+    unicode-bidi: bidi-override; ( fica de trás pra frente '-' )
+    text-decoration: ; ( decoração para os links, tem overline que é uma
+        linha sobre as letras, tem o line-through que é uma linha ao meio
+        das letras, tem o underline que é sublinhado )
+    text-transform: ; ( uppercase deixa todas as letras maiusculas, o lowercase
+        deixa todas as letras minusculas, e o capitalize deixa a PRIMEIRA letra
+        em maiusculo )
+    text-ident: ; ( espaço de paragráfo em PX )
+    letter-spacing: ; ( espaço em PX de uma letra da outra )
+    line-height: ; ( espaço das linhas em PX )
+    word-spacing: ; ( espaço das palavras em PX )
+FIM DA AULA 11...
+
+AULA 12:
+
+PROPRIEDADE FONT:
+    font-family: ; ( font das letras )
+    font-size: ; ( tamanho da fonte em PX 
+        fontes tem direitos autorais, então use o Google Fonts pra pegar as
+        fontes, e para usar basta fazer oque eu fiz no index2.css )
+    font-style: ; ( tem o normal, italic e o oblique )
+    font-weight: ; ( é a grossura da fonte usando o bold, ou com números de
+        100 a 900 )
+FIM DA AULA 12...
+
+AULA 13:
+
+ESTILIZANDO LINKS:
+    cursor: ; ( efeito quando o cursor passa em cima de X coisa, tem o NONE
+        que deixa o cursor invisivel, tem o WAIT que é quando fica carregando
+        tem o HELP que aparece um botão de interrogação, e etc... )
+FIM DA AULA 13...
+
+AULA 14:
+
+PROPRIEDADE DISPLAY:
+    ( display do tipo BLOCK/BLOCO são as tasgs que ocupam uma parte inteira do
+        site tipo o h1, ou o footer )
+    ( display do tipo in-line são as tags que ficam na mesma linha, tipo o 
+        <a href="", ou a tag span )
+    display: inline; ( no CSS, deixa o display e linha )
+    display: block; ( no CSS, deixa o display por bloco )
+    display: none; ( no CSS, deixa o paragráfo invisivel )
+    display: inline-block; ( no CSS, é a mistura do block e o inline )
+    visibility:  ; ( a visibilidade é... )
+        ( tags com display inline elas não " aceitam " as propriedades, só irá funcionar
+        se deixar o display com inline-block, por exemplo a tag <a href="#" )FIM DA AULA 14... 
+P O D I N — 12/02/2023 14:35
+AULA 15:
+
+PROPRIEDADE MAX-WIDTH:
+    max-width: ; ( máximo de largura que um bloco/txt pode ter, isso é bom para
+        dispositiveis movéis, tipo cll, e etc... )
+FIM DA AULA 15...
+
+AULA 16:
+
+PROPRIEDADE POSITION/OPACITY:
+    position: ; ( position é a posição diante a tela; tem o STATIC, tem o ABSOLUTE,
+        tem o FIXED, tem o RELATIVE, e tem o STICKY )
+    position: static; ( ; o STATIC é o position padrão que é a posição parada )
+    position: relative; ( o RELATIVE é mais para fazer camadas no site )
+    position: fixed; ( o FIXED é uma posição fixa que se mexe junto com a tela PARADO )
+    position: sticky; ( o STICKY ele gruda na barra de pesquisa do Google e vai até
+        a posiçaõ do seu "ancestral/pai" )
+    position: absolute; ( o ABSOLUTE é qual vai ser a posição dele diante em relação ao seu
+        "ancestral/pai", um(a) div/container por exemplo, mas o seu "ancestral/pai" tem
+        que ter qualquer position menos o STATIC, recomendado é usar o RELATIVE )
+    z-index: -1; ( não sei exatamente para o que server )
+    opacity: 0.9; ( grau de opacidade indo de 0 a 1 ( 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7
+        0.8, 0.9 e 1) ... )
+FIM DA AULA 16...
+
+AULA 17:
+
+PROPRIEDADE OVERFLOW:
+    overflow: ; ( tem o AUTO, HIDDEN, SCROLL, o Y, o X e o VISIBLE )
+    overflow: visible; ( o padrão é o visible, que é o normal )
+    overflow: hidden; ( todo o conteúdo que ficar pra fora irá ficar invisivel )
+    overflow: scroll; ( vai colocar uma barrinha de rolagem )
+    overflow: auto; ( overflow automático, mas só vai mostrar a barra de rolagem se tiver
+        conteúdo fora, ou quando tem uma altura determinada )
+    overflow-y: hidden; ( deixa a barra de rolagem no canto direito do site invisivel 
+        ( no body ) ... )
+    overflow-x: hidden; ( deixa a barra de rolagem de baixo do site invisivel 
+        ( no body ) ... )
+FIM DA AULA 17...
+
+AULA 18:
+
+PROPRIEDADE FLOAT:
+    div.NomeDaClasse ( uma div pronta com X nome da classe )
+    div#NomeDoId ( uma div pronta com Y nome do id )
+    float: ; ( tem LEFT que flutua na esquerda e tem RIGHT que flutua na direita )
+    clear: ; ( o clear ele limpa um ponto de flutuação )
+    clear: both; ( ele ??? ) 
+P O D I N — 28/02/2023 19:03
+AULA 19:
+
+PROPRIEDADE OPACITY:
+    picsum.photos ( site pra pegar imagens para teste )
+    opacity: ; ( opacidade de 1 a 0.1 )
+FIM DA AUALA 19...
+
+AULA 20:
+
+EFEITO DROPDOWN:
+    list-style-type: ; ( efeito da lista )
+    list-style-type: none; ( nesse caso nenhum )
+    efeito DROPDOWN no arquivo opacity.html
+FIM DA AULA 20...
+
+AULA 21:
+
+ESPECIFICIDADES CSS:
+    prioridade ( CSS ) (
+        1- primeiro o navegador vai executar as propriedades css que tiver INCORPORADO
+            na tag,
+        2- depois o navegador vai executar as propriedades css que tiver INCORPORADO
+            na página ( mas isso vai acontecer so se caso não tiver nenhuma class na 
+            página externa ),
+        3- ID é o mais forte, depois a CLASS ( mas so vai ser a CLASS so se caso
+            não tiver nenhum {seletor + class} por ex: h1.teste ), depois os seletores, 
+            depois a {CLASS + seletor} ( teste h1 {} ), graus de força no index5.css 
+    )
+FIM DA AULA 21...
+
+AULA 22:
+
+REGRA !IMPORT:
+    !important; ( na tag CSS3, faz ignorar todos os niveis de força, ex:
+        color: white !important; )
+FIM DA AULA 22...
+
+AULA 23:
+
+EFEITO GRADIENTE:
+    ( efeito degradê )
+    background-image: linear-gradient(black, white); ( metade do "quadrado" vai ser preto
+        e a outra branca, e etc... e é de cima para baixo )
+    to rigth... ( efeito da direita pra esquerda )
+    to bottom right... ( efeito de para baixo pra direita )
+    to top right... ( efeito de cima para baixo )
+    150deg... ( deg = graus )
+    black 51%, white 49% ( em porcentagem )
+    background-image: radial-gradient(black, white); ( efeito em circulos )
+FIM DA AULA 23...
+
+AULA 24:
+
+PROPRIEDADE BOX-SHADOW/TEXT-SHADOW:
+    text-shadow: 13px 13px 3px white; ( sombra na horizontal e na vertical,
+        quanto de desfoque ela vai ter  e a cor da sombra em PX )
+    text-shadow: 13px 13px 3px white, 1px 1px 5px blue; ( duas sombras )
+
+    box-shadow: 5px 5px 15px; ( sombra em caixa )
+FIM DA AULA 24...
+
+AULA 25:
+
+EFEITOS DE TEXTO:
+    white-spacing: nowrap: ( faz com que um texto que tem várias quebras de linhas, fique
+        numa só )
+    text-overflow: ellipsis; ( quando o OVERFLOW/WHITE-SPACING for atigindo, ele deixa
+         " ... " no final do texto )
+FIM DA AULA 25...
+
+AULA 26:
+
+MEDIA QUEIRES:
+    /* Smartphone ( 600px pra baixo )/
+    @media only screen and (max-width: 600px) {
+
+    }
+
+    / Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphone largos
+        600px pra cima ) /
+    @media only screen and (min-width: 600px) {
+
+    }
+    / Dispositivos Médios ( Tablet deitados, 768px pra cima ) /
+    @media only screen and (min-width: 768px) {
+
+    }
+
+    / Dispositivos Largos ( laptops/desktops, 992px para cima ) /
+    @media only screen and (min-width: 992px) {
+
+    }
+
+    / Super largos ( telas maiores, desktops e ate TVs, 1200px para cima  */
+    @media only screen and (min-width: 1200px) {
+
+    }
+FIM DA AULA 26...
+
+AULA 27...
+FLEXBOX:
+    ( por padrão a propriedade FLEX acompanham e se modificam dependendo da largura
+         ou da altura )
+
+    flex-direction: ; ( é a direção dos objetos )
+    flex-direction: colum; ( forma de coluna )
+    flex-direction: row; ( forma de linha )
+    flex-direction: row-reverse; ( forma de linha, vai pro lado ao contrario E
+        muda as ordens deixando de trás pra frente )
+    flex-direction: colum-reverse; ( forma de coluna, e muda as ordens deixando
+        de trás pra frente )
+    flex-wrap: nowrap; ( ignora o elemento PAI )
+    flex-wrap: wrap; ( ele meio que vai jogando os elementos pra trás dependendo do 
+        tamanho da tela, ele vai ... )
+    flex-flow: row wrap; ( 2 flex em uma )
+    flex-grow: 1; ( NUNCA colocar no elemento PAI, so no elemento FILHO, ele ajusta...
+        é basicamente isso )
+    justify-content: flex-end; ( deixa os elementos no " final " )
+    justify-content: center; *( deixa os elementos no centro, ava'-' )
+    justify-content: space-between; ( espaço'-' )
+    justify-content: space-around; ( espaço'-' )
+    align-items: stretch; ( faz com que X coisa, dependendo da largura ou da altura )
+    align-items: center; ( faz com que X coisa fique no centro )
+    align-items: flex-end; ( faz com que X coisa fique em baixo )
+    align-items: flex-start; ( faz com que X coisa fique em cima )
+FIM DA AULA 27...
