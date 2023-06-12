@@ -1,0 +1,9 @@
+1- recurso similar ao localStorage
+2- capacidade máxima de 5mb
+3- os dados são salvos no computador do usuário
+4- os dados expiram quando a aba é fechada
+
+sessionStorage.setItem('num', 123); -> adiciona um dado
+sessionStorage.removeItem('num1', 1234) -> remove um dado
+sessionStorage.getItem('num2') -> pega um dado
+sessionStorage.clear() -> limpa TODOS os dados
