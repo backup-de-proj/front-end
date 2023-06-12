@@ -1,0 +1,20 @@
+body {
+    background: rgb(133, 133, 233);
+    display: grid;
+    /* text-align: center; */
+    place-items: center;
+}
+
+
+
+.box {
+    /* border: 3px solid red; */
+    outline: 5px solid red;
+}
+
+#img {
+    /* transform: translateX(200px); */
+    /* transform: scaleY(1.25); */
+    /* transform: rotate(0.5turn); */
+    /* transform: skewY(20deg); */
+}
