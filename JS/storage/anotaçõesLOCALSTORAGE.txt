@@ -1,0 +1,11 @@
+1- recurso para salvar dados no navegador, que persiste após o recarregamento da página ou fechar a aba
+2- capacidade máxima de 10mb
+3- os dados são salvos no computador do usuário
+4- estes dados não possuem tempo de expiração, mas podem ser removidos
+5- os dados ficam na aba do dev tools
+
+
+localStorage.setItem('nome', 'eu'); -> insere um dado no navegador (inspecionar->application)
+localStorage.getItem('nome'); -> resgata um dado pela key
+localStorage.removeItem('nome'); -> remover um dado pela key
+localStorage.clear(); -> limpa TODOS os dados
