@@ -1,0 +1,265 @@
+AULA 04: 
+
+window.alert = primeira mensagem que vai aparecer na tela
+window.confirm = opção de OK e CANCELAR
+window.prompt = caixa de texto e opção de OK e CANCELAR
+<h1> = titulo
+<p> = texto normal
+<script> = próximo comando vai ser de JS
+<style> = estilo do site ( CSS3 ) , no inicio tem que colocar body {}
+background-color: = cor de fundo
+color = cor das palavras
+font: = fonte do texto
+FIM DA AULA 04...
+
+AULA 05: 
+
+var teste = 14 ( isso é uma variavel )
+tipos primitivos = NUMBER(infinity, NaN), STRING, BOOLEAN, UNDEFINED, OBJECT(array), FUNCTION
+typeof = mostra o tipo da variavel
+FIM DA AULA 05...
+
+AULA 06:
+
+comentario em CSS só funciona o /* /
+comentario em JS funciona o // // ou o / */
+comentario em HTML só funciona o <!-- -->
+window.alert('Ola' + variavel ) = mensagem com o nome digitado ( O '+' é pra juntar na frase )
+( number + number ) para adição
+( string + string ) para concatenação
+window.prompt retorna um valor STRING
+conversão para número INTEIRO = parseInt(variavel)
+conversão para número REAL = parseFloat(variavel)
+conversão de um número para STRING é = String(variavel) ou variavel.toString()
+templateSTRING ( formatação de STRING ) = Eu estou aprendendo ${variavel}
+variavel.length = mostra quantas letras tem a string
+variavel.toUpperCase() = deixa todas as letras maiusculas
+variavel.toLowerCase() = deixa todas as letras mininusculas
+<strong> </strong> = palavra em negrito
+variavel.toFixed(2) = o 2 é a quantidade de casas decimais
+variavel.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL/USD/EUR'})
+FIM DA AULA 06...
+
+AULA 07:
+
++ = adição
+- = subtração
+* = multiplicação
+/ = divisão real
+% = divisão inteira
+** = potência
+se em uma conta tem adição e divisão, se faz a divisão primeira, se quiser a adição primeiro coloque parenteses
+o parenteses sempre vem primeiro, depois a **, depois *, /, %, depois o + e o -
+( se todos eles aparecer o programa vai somar da esquerda pra direita )
+variavel += 4
+FIM DA AULA 07...
+
+AULA 08:
+
+--> maior
+< --> menor
+>=  --> maior ou igual
+<=  --> menor ou igual
+==  --> igual
+!=  --> diferente de.. false
+5 > 2  --> true ; 7 < 4 --> false
+=== --> se o número é INDENTICO ( o mesmo tipo, e etc... )
+! = negação ( não ) ; ( ! = NOT do python )
+&& = conjução ( é ) ; ( && = AND do python )
+ = disjunção ( ou ) ; (  = OR do python  )
+&& tem dois valores logicos ( valor binário )
+ tem valores logicos ( valor binário )
+primeiro o !, depois o &&, e por final o 
+primeiro os operadores aritimetricos ( **, /, () ... ), depois os relacionais ( >, <, >= ... ), e no final os logicos ( !, &&, || )
+? = media >= 7.0 ? 'Aprovado' : 'Reprovado'  ; ( o ? é oque vai acontecer SE for true )
+: =   ; ( o : é oque vai acontecer SE for false )
+FIM DA AULA 08...
+
+AULA 09:
+
+D.O.M = é o conjunto de objetos dentro do seu navegador ( Document Object Model )
+window.document.write(window.document.URL) = link do site
+variavel.innerText = 'printa' o paragráfo escolhido, variavel.innerHTML = COPIA o paragráfo
+POR marca = ( dentro de document ) getElementsByTagName('p')[0] ( pega qual paragráfo você escolher )
+POR id = getElementById('variavel')
+POR nome = getElementsByName('variavel')
+POR classe = getElementByClassName('variavel')
+POR seletor = querySelector()  , querySelectorAll()
+quando é ID usa ' # ' , quando é CLASS usa ' . '
+FIM DA AULA 09...
+
+AULA 10:
+
+width; = largura ( 200 px )
+heigth; = altura ( 200 px )
+line-heigth; = lugar que a palavra vai ficar ( pra ela ficar no centro, é a mesmo PX da altura, e largura )
+text-align; = ( center )
+Event reference | MDN = ( site pra estudar os eventos D.O.M )
+mouseenter = é quando o mouse entra dentro da <DIV>
+mousemove = é quando o mouse se move dentro da <DIV>
+mousedown = é quando você clica e segura o mouse
+mouseup = é quando você solta o click do mousedown
+click = click normal
+mouseout = é quando o mouse SAI de dentro da <DIV>
+uma função só é executada quando um EVENTO disparar
+{} = 'bloco'
+function = function nada() {}   ; ( função )
+input: number = 
+margin-top = ( em PX ) o espaço da margen
+FIM DA AULA 10...
+
+AULA 11:
+
+console.log() = 'print' no console
+F8 = RUN
+FIM DA AULA 11...
+
+AULA 12:
+
+condições aninhadas = condições dentro de condições ( if, else )
+pra pegar a hora atual é  = variavel = new Date()  , variavel2 = variavel.get
+getDay() = pega dia ( DOMINGO = 0, SEGUNDA = 1, TERÇA = 2, QUARTA = 3, QUINTA = 4, SEXTA = 5, SABADO = 6 )
+getMinutes() = pega o minuto
+getMonth() = pega o mes
+getHours() = pega a hora
+getMiliseconds() = mili segundos
+getFullYear() = pega o ano
+getTime() = ???
+-----------------
+switch (expressão) {
+
+    case valor 1:
+
+    break
+    case valor 2:
+
+    break
+    default:
+
+    break
+}
+----------------- > SWITCH é obrigatorio colocar BREAK no final de cada bloco, DEFAULT é se caso nenhum CASE for disparado
+FIM DA AULA 12...
+
+----------------- > EXTRA EX02
+header = cabeçalho
+section = um 'quadrado' com várias DIV
+footer = ( alguma coisa de copy )
+<p>&copy; </p> = mensagem de copy
+link:css = ( CONTROL e CLICK ) fazer um 'ESTILO' em outro arquivo
+border-radius: 10px; ( pra ficar com as bordas arredondadas )
+padding: 15px; ( tamanho do 'quadrado' )
+width: 500px; ( largura do 'quadrado' )
+margin: auto; ( centralizar o 'quadrado' )
+text-align: center; ( no HEADER e no FOOTER pra centralizar o titulo e o 'copy' )
+box-shadow: 5px 5px 10px black; ( sombra e cor da sombra )
+script:src = ( CONTROL e CLICK pra criar um arquivo de JS separado )
+----------------- >
+
+----------------- > EXTRA EX03
+variavel.style.textAlign = 'center' = deixar a DIV no CENTRO
+onload "carregar()" = quando a pagina carregar ( se coloca no BODY {} )
+document.body.style.background = '#e2cd9f' = mudar a cor de fundo direto do JS
+----------------- > 
+
+----------------- > EXTRA EX04
+ariaValueMin = o 'menor' valor ( usado pra um input de um NUMBER )
+ariaValueMax = o 'maior' valor ( usado pra um input de um NUMBER )
+radsex = usada num input de RADIO pra marcar apenas uma opção
+variavel[0].checked = marcou HOMEM
+variavel[1].checked = marcou MULHER
+----------------- >
+
+AULA 13:
+
+while (condição == 5) {} ( testa antes )
+do {} = ( faça ) ( testa depois )
+FIM DA AULA 13...
+AULA 14:
+
+for (inico;teste;incremento) {}
+----------------- >
+var = 1
+for (var=1; c<=10; c++) {
+
+}
+----------------- >
+FIM DA AULA 14...
+
+----------------- > EXTRA EX05
+pra colocar emoji é so ir no site: unicode emoji list, pegar o code do emoji
+e color o codigo assim: \u1F449
+----------------- > 
+
+----------------- > EXTRA EX06
+( dentro de uma div ) <select>  </select>
+size="10" ( dentro do select ) é quantos itens irá ter em uma select
+usar o = let variavel ( eu acho... )
+variavel5.text = ( dentro da section ) é o texto que vai aparecer dentro da section
+variavel6.appendChild(variavel5) = colocar o conteudo dentro da section
+----------------- >
+
+AULA 15:
+
+variavel composta pode armazenar vários valores ( array )
+var comida = ['creatina', 'whey', 'nada']
+array em crase não aparece os pochetes
+pra acrescentar um VALOR na ARRAY é: variavel[3]=6  ;(coloque o VALOR 6 na posição 3)
+variavel.push(7) = coloca o valor 7 na última posição 
+variavel.length = mostra quantos itens tem na ARRAY
+variavel.sort() = coloca os valores em ordem crescente
+variavel.indexOf(7) = ( JS me mostre a chave que está o valor 7 )
+se não tiver vai mostrar -1 ( -1 = não tem )
+FIM DA AULA 15...
+
+AULA 16:
+
+----------------- >
+function função (n1=0, n2=0) {
+    return n1 + n2
+}
+
+let res = função(5, 5)
+console.log(função)
+----------------- >
+----------------- >
+function fatorial(n) {
+    if (n == 1) {
+        return 1
+    } else {
+        return n * fatorial(n-1)
+    }
+}
+
+console.log(fatorial(5))
+----------------- >
+LET tem escopo por bloco
+VAR tem escopo global
+FIM DA AULA 16...
+
+AULA 17:
+
+objetos podem guardar valores, e objetos pode guardar funções
+this.("nome" do objeto) = " ? "  ; this é um comando voltado pra objeto ( ? )
+FIM DA AULA 17...
+----------------- > MANIPULÇÃO DE ARRAY
+toString() converte um array em uma string separada por vírgulas.
+join() combina todos os elementos do array em uma string.
+concat() combina dois arrays ou adiciona mais itens em um array e retorna um novo array.
+push() adiciona itens ao final de um array e altera o array original.
+pop() remove o último item de um array e o retorna
+shift() remove o primeiro item de um array e o retorna
+unshift() adiciona itens ao início de um array e altera o array original.
+splice() altera um array adicionando, removendo e inserindo elementos.
+slice() copia uma parte dada de um array e retorna a parte copiada como um novo array. Não altera o array original.
+split() divide uma string em substrings e as retorna como um array.
+indexOf() procura por um item em um array e retorna o índice onde o item foi encontrado. Do contrário, retorna -1
+lastIndexOf() procura por um item da direita para a esquerda e retorna o último índice onde o item foi encontrado.
+filter() cria um array se os itens do array passarem por um teste condicional.
+map() cria um array manipulando os valores do array.
+reduce() calcula um único valor com base em um array.
+forEach() itera por um array, aplicando uma função em todos os itens desse array
+every() verifica se todos os itens em um array passam em um teste condicional específico e retorna true se passarem, ou false se não passarem.
+some() verifica se um ou alguns dos itens em um array passam em um teste condicional específico e retorna true se passar(em), ou false se não passar(em).
+includes() verifica se um array contém um item determinado.
+----------------- >
