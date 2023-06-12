@@ -1,0 +1,30 @@
+AULA 01:
+
+INTRODUÇÃO:
+    O que é React?
+        - biblioteca JS para criação de interface
+        - utilizado para construir SPAs (Single Page Application)
+        - baseado em componentes
+        - utiliza o JSX para renderizar HTML
+        - e aplica o virtual DOM para realizar alterações de DOM
+        - podemos adicionar a um projeto ou criar um com ele
+FIM DA AULA 01...
+
+AULA 02:
+
+INSTALANDO O REACT:
+FIM DA AULA 02...
+
+AULA 03:
+
+ENTENDENDO O JSX:
+    - o JSX é como um HTML, porém dentro do código JS
+    - é a principal maneira de escrever HTML com o React
+    - podemos interpolar variaveis, inserindo ela entre {}
+    - é possivel também executar funções em JSX
+    - inserir valores em atributos de tags também valido em JSX
+
+    declarar classes em React utiliza-se -> className="" <- e -> não class="" <-
+    {} variavel
+    a tag <img> tem que ter fechamento, e fica -> <img /> <-
+FIM DA AULA 03...
