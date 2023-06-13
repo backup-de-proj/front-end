@@ -1,0 +1,324 @@
+AULA 01:
+
+    alert('Olá, Mundo!') ( popup no navegador )
+    window.confirm = opção de OK e CANCELAR
+    window.prompt = caixa de texto e opção de OK e CANCELAR
+
+JS INTERNO:
+    <script>  </script>
+
+JS EXTERNO:
+    <script src="index.js" ></script> ( arquivo )
+FIM DA AULA 01...
+
+AULA 02:
+
+TIPOS DE SAÍDA:
+    document.getElementById('a') ( pegar o ID de alguma tag pelo JS )
+    document.getElementByClass('b') ( pegar a CLASSE de alguma tag pelo JS )
+    document.querySelector('#c') / document.querySelector('.d') ( pega a CLASSE/ID de alguma tag pelo JS )
+    .innerHTML="e" ( mudar X texto pelo JS, para o que tiver entre parenteses )
+    document.write('f') ( escrever x texto pelo JS )
+    console.log('g') ( X texto que aparece no terminal/console )
+FIM DA AULA 02...
+
+AULA 03:
+
+DECLARAÇÕES:
+    var a = 'nada' ( declarar uma variavel simples )
+    as declarações são separadas pelo -> ; ( ponto e vírgula )
+    o JS ignora espaço vazios
+    o JS aceita quebra de linhas
+    isso é um bloco de informações -> {} '-'
+FIM DA AULA 03..
+
+AULA 04:
+
+SINTAXE:
+    5+5 = número
+    '5 + 5' = texto
+    o JS é sensível a letras maiusculas '-'
+    nunca usar o hífen --> -
+
+    + = adição
+    - = subtração
+    * = multiplicação
+    / = divisão real
+    % = divisão inteira
+    ** = potência
+FIM DA AULA 04...
+
+AULA 05:
+
+COMENTÁRIOS:
+    // isso é um comentário em JS
+    ou CTRL + ;
+FIM DA AULA 05...
+
+AULA 06:
+
+VARIAVEIS:
+    variaveis não podem começar com números, nem simbolos
+    VAR ( ( ESCOPO GLOBAL ), e pode ser redeclarada )
+    LET ( ( ESCOPO LOCAL ), LET ela não pode ser redeclarada, tipo -> let pessoa='joao', let pessoa='eu' == ERRO ) (index4.js)
+    CONST ( CONST não pode mudar/NUNCA muda )
+    '1' + '2' = 12 ( se eu tentar somar dois textos eles vão contatenar, se juntar )
+    números com letras da bagunça
+FIM DA AULA 06...
+
+AULA 07:
+
+OPERADORES:
+    se em uma conta tem adição e divisão, se faz a divisão primeira, se quiser a adição primeiro coloque parenteses
+    o parenteses sempre vem primeiro, depois a **, depois *, /, %, depois o + e o -
+
+    + = aritimetrico
+    = == atribuição
+    ++ = incremento ( vai receber 1 a mais )
+    -- = DEScremento ( vai diminuir 1 a menos )
+    += == mais igual á... 
+    -= == menos igual á...
+    /= == dividir igual á...
+    == = igual á...
+    === = é EXATAMENTO igual á... ( se é o mesmo texto/numero, e é do mesmo tipo ( text, number, undefined ); )
+    != = é diferente do que...
+    !== = é EXATAMENTE diferente do que... ( verifica o texto também )
+    > = maior que...
+    < = menor que...
+    >= == maior igual que...
+    <= == menor igual que...
+    && = e ( and )
+    || = ou ( or )
+    ? = se a primeira resposta for TRUE vai exibir a mensagem... se a segunda for FALSE vai exibir a mensagem... (
+        var idade = 18;
+        var eleitor = (idade < 18) ? 'Menor que 18' : 'Maior que 18';
+    )
+FIM DA AULA 07...
+
+AULA 08:
+
+FUNÇÕES:
+    function soma(parametro1, parametro2) {
+        return parametro1 + parametro2
+    }
+
+    return ( retorna X coisa )
+FIM DA AULA 08...
+
+AULA 09:
+
+OBJETOS:
+    objetos são variaveis com muitos valores dentro, e esses valores são chamadas de propriedade,
+        e dentro dessas propriedades tem metodos/funções
+    normalmente use o CONST para criar objetos (objetos criados no index6.js)
+    ------------------------ esse é um objeto literal ( é quando as propriedades ja vem definidas )
+    const carro = {
+        marca: 'ford', 
+        modelo: 'ka', 
+        ano: '2015', 
+        placa: '1A4467PpX',
+    };
+    ------------------------
+    metodos é quando vem uma função dentro dela tipo:
+    ----------------------------------------------------------
+    buzina: function() {alert('piiiiiiiiiiiiiiiiiiiiiiiiiii')}
+    ----------------------------------------------------------
+
+    console.log(carro) ( 'print' no objeto inteiro )
+    console.log(carro.ano) ( 'print' numa propriedade especifica )
+
+    ----------------------------------------------------------------
+    completo: function() {
+        return 'A marca é '+this.marca+' e o modelo é: '+this.modelo+
+    }
+    ---------------------------------------------------------------- this significa 'ESTE' ou seja, this.marca = 'NESTE OBJETO QUERO
+        A PROPRIEDADE 'MARCA'
+FIM DA AULA 09...
+
+AULA 10:
+
+EVENTOS:
+    onclick() é disparado quando algum elemento é clicado
+    ondblclick() é disparado quando algum elemento é clicado 2 vezes
+    onmouseover() é disparado quando o mouse esta sobre
+    onmouseout() é disparado quando o mouse é movido para fora do elemento
+    onmousemove() é disparado quando o mouse é movido dentro do elemento
+    onmousedown() é disparado quando o mouse estiver pressionado
+    onmouseup() é quando soltar o click do botão
+    onfocus() é quando você 'entra' no input
+    onchange() é disparado quando ocorre mudança no ( ? )
+    onblur() é disparado quando algum elemento é desfocado
+    onkeydown() é disparado quando alguma tecla é pressionado
+    onkeypress() é disparado quando uma tecla fica preesionada
+    onkeyup() é disparado quando uma tecla é solta sobre um elemento
+    onload() é disparado quandoa a página terminou de ser carregada. Body
+    onresize() é disparado quando há um redimencionamento da janela
+FIM DA AULA 10...
+
+AULA 11:
+
+ARRAY (MATRIZES):
+    os arrays são usados para armazenar vários valores em uma única variaveil
+    usa-se polchetes -> []
+    console.log(array[0]);
+    ----------------------
+    const array2 [
+
+    ]
+    array2[0] = 'teste'
+    ----------------------
+    .length = ler'-'
+    array.push('teste') -> push adiciona um item ao final da array
+    array[1] = 'teste2' -> adiciona um item em X indice
+    Array.isArray -> se isso for um array retorna true, se nao retorna false
+FIM DA AULA 11...
+
+AULA 12:
+
+    array.join('teste1') -> add um item como um seperador
+    array.pop() -> remove o ultimo item do array
+    array.shift() -> remove o primeiro item do array
+    array.unshift('X') -> add no primeiro (0) item o valor entre parenteses
+    delete array[0] -> deleta o item do indice X e troca por undefined
+    array.splice(1, 0, 'item adicionado') -> primeiro parametro é em qual posição você quer add
+        o segundo parametro é quantos itens você quer excluir, o terceiro parametro é os itens
+        que você quer adicionar
+    const superArray = array1.concat(array2); - ( junta X listas em uma so/variavei )
+    array.slice(2, 6) ( fatia strings a partir da posição X, no caso 2 )
+    array.sort(); -> mostra em ordem alfabetica
+    array.reverse(); -> deixa em ordem DESalfabetica ( mas primeiro precisa deixar em ordem alfabetica para funcionar )
+        ( para fazer um SORT com números, faz a seguinte function: .sort(function (a, b) { return a-b }; ) )
+    ----------------------------------------------------------------------------
+    function MaiorNumero (array2) { // pega o maior num
+        return Math.max.apply(null, array2);
+    };
+
+    function MenorNumero(array2) { // pega o menor num
+        return Math.min.apply(null, array2);
+    };
+
+    function MaiorQue20 (value, index, array2) { // pega os nu maior que 20
+        return value > 20
+    };
+    ----------------------------------------------------------------------------
+FIM DA AULA 12...
+
+AULA 13:
+
+IF E ELSE:
+    if = se
+    else if = 
+    else = se nao
+    new Date().getHours(); pega as horas do pc
+    null = nada
+FIM DA AULA 13...
+
+AULA 14:
+
+SWITCH:
+    -----------------------------------------------------
+    let num = 2;
+
+    switch (num) {
+        case 1:
+            console.log('1');
+            break
+        case 2:
+            console.log('2');
+            break
+        
+        default:
+            console.log('nenhum dos dois');
+    };
+    ---------------------------------------------------
+    o ultimo numero ele ignora
+    switch verifica o literal ( === ) inclusive o tipo
+    teste = teste.toLocaleLowerCase(); ( deixa a string em minusculo )
+    new Date().getDay(); ( domingo = 0, segunda = 1, terça = 2, quarta = 3, quinta = 4, sexta = 5, sabado = 6 )
+FIM DA AULA 14...
+
+AULA 15:
+
+FOR:
+    tres parametros: ponto inical, condição, incremento, (let i=0; i<15; i++)
+    -----------------------------
+    for (let i=0; i<11; i++) {
+        console.log(i);
+    };
+    ----------------------------
+FIM DA AULA 15...
+
+AULA 16:
+
+SETTIMEOUT e SETINTERVAL:
+    eventos de tempo
+    setTimeout(function, tempo em milisegundos) -> executa uma função, depois de esperar X tempo
+    setInterval(function, tempo em milisegundos) -> é a mesma coisa do setTimeout, mas repete a execução continuamente
+    ---------------------------------------------
+    setTimeout(function() {
+        console.log('6 segundos se passaram');
+    }, 6000)
+    ----------------------------------------------
+    var help = setInterval(function() {
+        // console.log('teste');
+    }, 6000)
+
+    clearInterval(help)
+    ----------------------------------------------
+FIM DA AULA 16...
+
+AULA 17:
+
+CLASSES:
+    classes são como fabricas para criar objetos
+    constructor = construir
+    ------------------------------------------------
+    class Carro {
+        constructor(n1, n2, n3, n4) {
+            this.marca = n1;
+            this.modelo = n2;
+            this.ano = n3;
+            this.dono = n4;
+        }
+    };
+    const lamborghini = new Carro('lamborghini', 'LP600', 2010, 'podin');
+    console.log(lamborghini.marca);
+    ------------------------------------------------
+    lamborghini.ano = 2008
+    as classes tem que ser declarada antes da chamada
+FIM DA AULA 17...
+
+AULA 18:
+
+MANIPULAÇÃO DE DATAS:
+    new Data( pega a data completa de agora );
+    getFullYear(); ( pega o ano )
+    getMonth(); ( pega o mes ) -> janeiro = 0, dezembro = 11
+    getDay(); ( pega o dia da semana ) domingo = 0, sabado = 6
+    getDate(); ( pega o dia do mes )
+    getHours(); ( pega as horas do dia )
+    getMinutes(); ( pega os minutos )
+    getSeconds(); ( pega os segundos )
+    getMilliseconds(); ( pega os milisegundos )
+    getUTC... ( X coisa dos EUA )
+    toLocaleString('pt-BR'); ( data do padrão BR ) DIA MES ANO
+    new Date(2023, 0, 15) ( ano, mes, dia ) mes = 0 é janeiro
+    Math.ceil(variavel) ( sla )
+FIM DA AULA 18...
+
+AULA 19:
+
+JSON:
+    JSON.stringify(objeto) ( transforma um OBJ em TXT )
+    JSON.parse(objeto) ( transforma TXT em OBJ )
+    site viacep.com.br
+    ------------------------------------------------------------
+    const ajax = new XMLHttpRequest();
+    ajax.open('GET', 'https://viacep.com.br/ws/01001000/json/')
+    ajax.send();
+
+    ajax.onload = function () {
+        console.log(this.responseText);
+    };
+    ------------------------------------------------------------
+FIM DA AULA 19...
